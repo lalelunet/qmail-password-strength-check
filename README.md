@@ -1,0 +1,1 @@
+# qmail-password-strength-check
