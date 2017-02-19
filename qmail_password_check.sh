@@ -24,11 +24,10 @@ fi
 
 echo "vpasswd file found.";
 
-# check if vpopmail is using directory hashing
-re='^[0-9]+$';
 domain=`cat "$1" | head -n1 | cut -d ':' -f6 | cut -d '/' -f5`;
 
-if ! [[ "$domain" =~ "$re" ]] ;
+# check if vpopmail is using directory hashing
+if [[ "$domain" =~ ^[0-9]+$ ]]
 	then
 		domain=`cat "$1" | head -n1 | cut -d ':' -f6 | cut -d '/' -f6`;
 fi
