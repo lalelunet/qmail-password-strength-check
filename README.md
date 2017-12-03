@@ -1,6 +1,6 @@
 # qmail-password-strength-check
 
-Read out vpasswd files from vpopmail and check the strength from the user passwords. 
+Read out vpasswd files from vpopmail and check the strength from the user passwords. Weak passwords you will find in the log file after the scan.
 
 ## Usage
 
