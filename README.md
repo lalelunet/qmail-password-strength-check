@@ -1,3 +1,7 @@
+# Moved to gitlab
+
+Please go to: https://gitlab.com/lalelunet/qmail-password-strength-check
+
 # qmail-password-strength-check
 
 Read out vpasswd files from vpopmail and check the strength from the user passwords. Weak passwords you will find in the log file after the scan.
